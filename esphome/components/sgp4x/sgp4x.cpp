@@ -295,7 +295,7 @@ void SGP4xComponent::dump_config() {
     ESP_LOGCONFIG(TAG, "    No source configured");
   }
   LOG_SENSOR("  ", "VOC", this->voc_sensor_);
-  LOG_SENSOR("  ", "VOC", this->voc_sensor_raw_)
+  LOG_SENSOR("  ", "VOC", this->voc_sensor_raw_);
   LOG_SENSOR("  ", "NOx", this->nox_sensor_);
 }
 
